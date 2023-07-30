@@ -1,0 +1,33 @@
+.menu__title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 1.2rem;
+}
+
+.menu__list {
+    display: flex;
+
+}
+
+.menu__list__item {
+    font-family: var(--fonte-padrao);
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.menu__list__item a:hover {
+    opacity:0.5;
+}
+
+.menu__list__item__contato {
+    font-weight: bold;
+    
+}
+
+.menu__list__item__contato a:hover {
+    opacity:0.5;
+}
+
+
+

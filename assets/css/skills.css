@@ -1,0 +1,38 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    height: 15.25rem;
+    justify-content: center;
+    padding-top: 7rem;
+    padding-bottom: 5.5rem;
+    text-align: center;
+}
+
+.skills__title {
+    color: var(--cor-padrao-texto);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.skills__line {
+    display: flex;
+    justify-content: space-around;
+    margin: 5em 6%;
+}
+
+.skills__box {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    max-height: 20vh;
+    transition: .25s all linear;
+    max-width: 20vh;
+}
+
+.skills__hobbies {
+    padding-left: 0;
+}
+
+.skills__img {
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,81 @@
+.formcontato__contacto {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    min-width: 90%;
+}
+
+.formcontato__text {
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+}
+
+.formcontato__img {
+    border-radius: 10px 20px;
+}
+
+.formcontato__title {
+    font-family: var(--fonte-padrao);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.formcontato__subtext {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.formcontato__form {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.formcontato__input {
+    font-family: var(--fonte-padrao);
+    background-color: #fff;
+    border-style: none;
+    border-bottom: 2px solid #C8C8C8;
+    border-radius: 10px 20px;
+    margin-bottom: 2rem;
+    height: 3.5rem;
+    padding: 3px 0 3px 1rem;
+    transition: .6s all ease-out;
+    width: 100%;
+}
+
+.formcontato__textarea {
+    font-family: var(--fonte-padrao);
+    background-color: #fff;
+    border-style: none;
+    border-bottom: 2px solid #C8C8C8;
+    border-radius: 10px 20px;
+    color: #C8C8C8;
+    margin-bottom: 1.713rem;
+    height: 3.5rem;
+    padding: 2rem 0 0px 1rem;
+    transition: .6s all ease-out;
+    width: 100%;
+    resize: none;
+}
+
+.formcontato__botao {
+    border-radius: 10px 20px;
+    border: 2px solid #2A7AE4;
+    background: #2A7AE4;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: var(--fonte-padrao);
+    font-size: .9rem;
+    font-weight: 500;
+    height: 3.1rem;
+    padding: 1rem;
+    text-align: center;
+    transition: .5s all linear;
+    min-width: 25.15%;
+}
+

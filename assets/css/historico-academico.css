@@ -1,0 +1,31 @@
+.academic__title {
+    color: var(--cor-padrao-texto);
+    font-family: var(--fonte-padrao);
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.academic__courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+.academic__courses__box {
+    height: 21.688rem;
+    padding: 8px 0;
+    text-align: center;
+    width: 23rem;
+    margin-bottom: 40px;
+}
+
+.academic__courses__list {
+    padding-bottom: 0.5rem;
+}
+
+.academic__courses__item__img {
+    text-align: left;
+}
